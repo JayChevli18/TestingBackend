@@ -60,6 +60,11 @@ app.post('/api/user', async (req, res) => {
     }
 })
 
-module.exports = app;
+app.listen(process.env.PORT || 5000, ()=>{
+    console.log("Server Started!");
+})
+
+
+//module.exports = app;
 
 
