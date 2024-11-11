@@ -4,7 +4,6 @@ const connectdb = require("./config/dbConfig");
 const authRoutes = require("./routes/authRoutes");
 const todoRoutes = require("./routes/todoRoutes");
 const cors = require("cors");
-const User=require("../model/userModel");
 
 dotenv.config();
 const app = express();
